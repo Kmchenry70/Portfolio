@@ -28,6 +28,7 @@ import blender from "./tech/blender.svg";
 import threeD from "./threeD.png";
 import lyriks from "./lyriks.png";
 import fightingame from "./fightingame.png";
+import earth from "./earth.png";
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   python, 
   blender,
   fgIcon,
+  earth
 };

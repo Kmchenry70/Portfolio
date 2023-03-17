@@ -20,7 +20,8 @@ import {
   threeD,
   lyriks,
   fightingame,
-  blender
+  blender,
+  earth
 } from "../assets";
 
 export const navLinks = [
@@ -178,6 +179,24 @@ const projects = [
     source_code_link: "https://github.com/Kmchenry70/Fighting-Game",
     live_link: 'https://km-fighting-game.netlify.app/'
   },
+  {
+    name: "Fighting Game",
+    description:
+      "A simple fighting game. Developed as a Chris Courses project.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "js",
+        color: "green-text-gradient",
+      },
+    ],
+    image: earth,
+    source_code_link: "https://github.com/Kmchenry70/Earth",
+    live_link: 'https://earthrender.netlify.app/'
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
