@@ -182,16 +182,12 @@ const projects = [
   {
     name: "Fighting Game",
     description:
-      "A simple fighting game. Developed as a Chris Courses project.",
+      "A simple earth render using ThreeJS. Developed alongside a Chris Courses project. Moon added by me.",
     tags: [
       {
-        name: "HTML5",
+        name: "ThreeJs",
         color: "blue-text-gradient",
-      },
-      {
-        name: "js",
-        color: "green-text-gradient",
-      },
+      }
     ],
     image: earth,
     source_code_link: "https://github.com/Kmchenry70/Earth",
