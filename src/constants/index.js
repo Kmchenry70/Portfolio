@@ -136,7 +136,7 @@ const projects = [
     ],
     image: threeD,
     source_code_link: "https://github.com/Kmchenry70/Portfolio",
-    live_link: ''
+    live_link: 'https://kalebmchenry.netlify.app/'
   },
   {
     name: "Lyriks",
