@@ -1,6 +1,9 @@
-import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
-import 'react-vertical-timeline-component/style.min.css';
+import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -12,11 +15,13 @@ const ComingSoon = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I Have Done So Far</p>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
-        <p className={`${styles.sectionSubText} pt-10`}>this section will be updated in the future.</p>
+        <p className={`${styles.sectionSubText} pt-10 text-white`}>
+          this section will be updated in the future.
+        </p>
       </motion.div>
     </>
-  )
-}
+  );
+};
 
 // const ExperienceCard = ({ experience }) => (
 //   <VerticalTimelineElement
@@ -26,9 +31,9 @@ const ComingSoon = () => {
 //     iconStyle={{ background: experience.iconBg }}
 //     icon={
 //       <div className="flex justify-center items-center w-full h-full">
-//         <img 
+//         <img
 //           src={experience.icon}
-//           experience={experience.company_name} 
+//           experience={experience.company_name}
 //           className='w-[60%] h-[60%] object-contain'
 //         />
 //       </div>
@@ -68,4 +73,4 @@ const ComingSoon = () => {
 //   )
 // }
 
-export default SectionWrapper(ComingSoon, 'work');
+export default SectionWrapper(ComingSoon, "work");
