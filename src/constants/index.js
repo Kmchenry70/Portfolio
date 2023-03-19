@@ -180,7 +180,7 @@ const projects = [
     live_link: 'https://km-fighting-game.netlify.app/'
   },
   {
-    name: "Fighting Game",
+    name: "Earth",
     description:
       "A simple earth render using ThreeJS. Developed alongside a Chris Courses project. Moon added by me.",
     tags: [
